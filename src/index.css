@@ -4,8 +4,13 @@
   box-sizing: inherit;
 }
 
-body {
+html, body {
   font-family: "Inter", serif !important;
   font-size: 62.5% !important;
   box-sizing: border-box;
+  height: 100%;
+}
+
+#root{
+  height: 100%;
 }
